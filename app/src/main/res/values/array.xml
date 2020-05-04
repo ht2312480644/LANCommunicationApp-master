@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="popup_window_item_text">
+        <item>@string/copy</item>
+        <item>@string/transmit</item>
+        <item>@string/delete</item>
+        <item>@string/replay</item>
+    </array>
+
+    <array name="popup_window_item_text_send">
+        <item>@string/copy</item>
+        <item>@string/transmit</item>
+        <item>@string/delete</item>
+    </array>
+
+    <array name="popup_window_item_other">
+        <item>@string/transmit</item>
+        <item>@string/delete</item>
+        <item>@string/replay</item>
+    </array>
+
+    <array name="popup_window_item_other_send">
+        <item>@string/transmit</item>
+        <item>@string/delete</item>
+    </array>
+
+    <array name="popup_window_item_voice">
+        <item>@string/delete</item>
+        <item>@string/replay</item>
+    </array>
+</resources>

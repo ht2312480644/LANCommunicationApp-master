@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:text="删除后将不会出现在你的消息记录中"
+        android:gravity="center"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_2"
+        android:background="@color/color_gray"/>
+
+    <TextView
+        android:id="@+id/delete_record"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_60"
+        android:text="@string/delete"
+        android:textSize="@dimen/sp_20"
+        android:textColor="@color/color_red"
+        android:gravity="center"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_15"
+        android:background="@color/color_gray"/>
+
+    <TextView
+        android:id="@+id/cancel_delete"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_60"
+        android:text="@string/text_cancel"
+        android:textSize="@dimen/sp_20"
+        android:gravity="center"/>
+</LinearLayout>

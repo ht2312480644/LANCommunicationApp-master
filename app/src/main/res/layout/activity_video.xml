@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+     <!--Copyright (c) 2019 ASKEY Computer Corp. and/or its affiliates. All rights reserved.-->
+     <!--Created by Jesse Liu on 2019/10/28-->
+     <!--Description: PG1-Smart Team-CT PT-31 [MM] Video Recording Requirement-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextureView
+        android:id="@+id/activity_video_textureView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <FrameLayout
+        android:id="@+id/control"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_96"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="@dimen/dp_24">
+
+        <TextView
+            android:id="@+id/activity_video_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/sp_24"
+            android:layout_gravity="center_vertical|start"
+            android:text="@string/text_cancel"
+            android:layout_marginStart="@dimen/dp_30"/>
+
+        <ImageView
+            android:id="@+id/activity_video_take"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_circle_video" />
+
+        <TextView
+            android:id="@+id/activity_video_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sp_24"
+            android:layout_gravity="center"/>
+    </FrameLayout>
+</RelativeLayout>

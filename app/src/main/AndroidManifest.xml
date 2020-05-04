@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.skysoft.smart.intranetchat">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name=".app.IntranetChatApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:requestLegacyExternalStorage="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.activity.chatroom.PopupWindow.TransmitActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activity.chatroom.EstablishGroup.EstablishGroupActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.videocall.VideoCallActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.videocall.AnswerVideoCallActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.videocall.LaunchVideoCallActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.chatroom.ChatRoom.ChatRoomActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".ui.activity.startanimation.StartAnimationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/StartAnimationTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.login.LoginActivity"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name=".server.IntranetChatServer"
+            android:process="@string/process_name" />
+
+        <activity
+            android:name=".ui.activity.camera.CameraActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.camera.RequestPermissionsHelpActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.camera.ClipImageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.camera.ShowPictureActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.voicecall.AnswerVoiceCallActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.voicecall.LaunchVoiceCallActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.voicecall.VoiceCallActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.camera.VideoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.camera.ShowVideoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.camera.VideoPlayActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.camera.PictureShowActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.weather.WeatherActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.userinfoshow.UserInfoShowActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ui.activity.calendar.MyCalendarView" />
+    </application>
+
+</manifest>

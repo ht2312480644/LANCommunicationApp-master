@@ -1,0 +1,7 @@
+<!--Copyright (c) 2019 ASKEY Computer Corp. and/or its affiliates. All rights reserved.-->
+<!--Created by Jesse Liu on 2019/10/15-->
+<!--Description: PG1-Smart Team-CT PT-21 [MM] Taking Picture Coding-->
+<vector android:height="@dimen/dp_24" android:viewportHeight="1024"
+    android:viewportWidth="1024" android:width="@dimen/dp_24" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#FFCC66" android:pathData="M800,447.99H608l96,-447.99L224,576.01h192l-128,447.99z"/>
+</vector>

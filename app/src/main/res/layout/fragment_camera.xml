@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Copyright (c) 2019 ASKEY Computer Corp. and/or its affiliates. All rights reserved.-->
+<!--Created by Jesse Liu on 2019/10/15-->
+<!--Description: PG1-Smart Team-CT PT-21 [MM] Taking Picture Coding-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.skysoft.smart.intranetchat.model.camera.widget.AutoFitTextureView
+        android:id="@+id/texture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <FrameLayout
+        android:id="@+id/control"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_96"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="@dimen/dp_24">
+
+        <TextView
+            android:id="@+id/fragment_camera2_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/sp_20"
+            android:layout_gravity="center_vertical|start"
+            android:text="@string/text_cancel"
+            android:layout_marginStart="@dimen/dp_20"/>
+
+        <ImageButton
+            android:id="@+id/fragment_camera2_take_picture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            style="@android:style/Widget.Material.Light.Button.Borderless"
+            android:src="@drawable/ic_take_photo"/>
+
+        <ImageButton
+            android:id="@+id/fragment_camera2_change_camera_id"
+            style="@android:style/Widget.Material.Light.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|end"
+            android:padding="@dimen/dp_20"
+            android:src="@drawable/ic_camera_switch_line" />
+
+    </FrameLayout>
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/dp_156">
+
+        <ImageView
+            android:id="@+id/fragment_camera2_lighting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@android:style/Widget.Material.Light.Button.Borderless" />
+
+        <LinearLayout
+            android:id="@+id/fragment_camera2_show_hide_lightning"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:visibility="gone">
+            <TextView
+                android:id="@+id/fragment_camera2_open_lighting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/color_white"
+                android:layout_marginStart="@dimen/dp_10"
+                android:text="@string/text_open_lighting"/>
+            <TextView
+                android:id="@+id/fragment_camera2_close_lighting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/color_white"
+                android:layout_marginStart="@dimen/dp_50"
+                android:text="@string/text_close_lighting"/>
+            <TextView
+                android:id="@+id/fragment_camera2_auto_lighting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/color_white"
+                android:layout_marginStart="@dimen/dp_50"
+                android:text="@string/text_auto_lighting"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

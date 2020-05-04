@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#FF0000</color>
+
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_black">#000000</color>
+    <color name="color_light_black">#99000000</color>
+    <color name="color_focus">#FABE13</color>
+    <color name="color_blue">#1296db</color>
+    <color name="color_red">#FF0000</color>
+    <color name="color_gray">#ddd</color>
+    <color name="color_green">#99CC00</color>
+    <color name="color_green_phone">#08F02E</color>
+    <color name="color_transparent">@android:color/transparent</color>
+    <color name="color_cyan">#1296db</color>
+    <color name="color_orange">#ffffbb33</color>
+    <color name="color_purple">#A020F0</color>
+    <color name="color_light_gray">#F0EAEA</color>
+    <color name="color_gray_dark">#A39D9D</color>
+    <color name="custom_spinner_textColor">#251300</color>
+    <color name="gradient_main_title_startColor">#7DAFDF</color>
+    <color name="gradient_main_title_endColor">#1285E7</color>
+</resources>

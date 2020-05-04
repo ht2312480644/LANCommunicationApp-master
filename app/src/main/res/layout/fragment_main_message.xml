@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <View
+    android:id="@+id/custom_status_bar_background"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:id="@+id/fragment_main_message_layout_first"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_55"
+        android:orientation="vertical"
+        android:background="@drawable/custom_gradient_main_title">
+       <include
+           layout="@layout/layout_title"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ListView
+            android:id="@+id/list_main_message"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:divider="@drawable/item_cutting_line"/>
+    </RelativeLayout>
+</LinearLayout>

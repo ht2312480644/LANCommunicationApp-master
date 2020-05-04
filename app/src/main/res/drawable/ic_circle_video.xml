@@ -1,0 +1,7 @@
+<!--Copyright (c) 2019 ASKEY Computer Corp. and/or its affiliates. All rights reserved.-->
+<!--Created by Jesse Liu on 2019/10/28-->
+<!--Description: PG1-Smart Team-CT PT-31 [MM] Video Recording Requirement-->
+<vector android:height="@dimen/dp_64" android:viewportHeight="1024"
+    android:viewportWidth="1024" android:width="@dimen/dp_64" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#d81e06" android:pathData="M150.12,150.12C250.27,50.07 370.89,0 512,0c141.11,0 261.73,50.07 361.88,150.12C973.93,250.27 1024,370.89 1024,512c0,141.11 -50.07,261.73 -150.12,361.88C773.73,973.93 653.11,1024 512,1024c-141.11,0 -261.73,-50.07 -361.88,-150.12C50.07,773.73 0,653.11 0,512 0,370.89 50.07,250.27 150.12,150.12zM512,41.88c-85.3,0 -164.15,20.89 -236.34,62.77C203.47,146.43 146.43,203.47 104.65,275.66 62.77,347.85 41.88,426.7 41.88,512c0,129.64 45.98,240.44 137.83,332.29C271.56,936.24 382.36,982.12 512,982.12s240.44,-45.98 332.29,-137.83C936.24,752.44 982.12,641.64 982.12,512c0,-129.64 -45.98,-240.44 -137.83,-332.29S641.64,41.88 512,41.88z"/>
+</vector>

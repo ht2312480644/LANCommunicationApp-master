@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright (c) 2019 ASKEY Computer Corp. and/or its affiliates. All rights reserved.-->
+<!--Created by Oliver ou on 2019/11/6-->
+<!--Description: Voice or video communication function-->
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_black"
+    tools:context=".ui.activity.videocall.AnswerVideoCallActivity">
+    <View
+        android:id="@+id/custom_status_bar_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextureView
+        android:id="@+id/activity_answer_video_show"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/activity_answer_video_head_img"
+        android:layout_width="@dimen/dp_128"
+        android:layout_height="@dimen/dp_128"
+        android:layout_margin="@dimen/dp_24"
+        android:src="@drawable/default_head"
+        app:layout_constraintTop_toBottomOf="@+id/custom_status_bar_background"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/activity_answer_video_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_12"
+        android:textSize="@dimen/dp_24"
+        tools:text="@string/app_name"
+        android:textColor="@color/color_white"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/activity_answer_video_head_img"
+        app:layout_constraintBottom_toBottomOf="@id/activity_answer_video_head_img"/>
+
+    <TextView
+        android:id="@+id/activity_answer_video_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_answer_video_invite"
+        android:textColor="@color/color_white"
+        android:layout_marginTop="@dimen/dp_24"
+        app:layout_constraintTop_toBottomOf="@id/activity_answer_video_name"
+        app:layout_constraintStart_toStartOf="@id/activity_answer_video_name"/>
+
+
+    <ImageView
+        android:id="@+id/activity_answer_refuse_video_call"
+        android:layout_width="@dimen/dp_80"
+        android:layout_height="@dimen/dp_80"
+        android:layout_marginStart="@dimen/dp_64"
+        android:layout_marginBottom="@dimen/dp_120"
+        android:src="@drawable/ic_phone_cancel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+    <TextView
+        android:id="@+id/activity_answer_text_phone_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_white"
+        android:text="@string/text_on_vioce_call_cancel"
+        android:layout_marginEnd="@dimen/dp_24"
+        android:layout_marginTop="@dimen/dp_12"
+        app:layout_constraintTop_toBottomOf="@id/activity_answer_refuse_video_call"
+        app:layout_constraintEnd_toEndOf="@id/activity_answer_refuse_video_call"/>
+
+    <ImageView
+        android:id="@+id/activity_answer_consent_video_call"
+        android:layout_width="@dimen/dp_80"
+        android:layout_height="@dimen/dp_80"
+        android:layout_marginEnd="@dimen/dp_64"
+        android:layout_marginBottom="@dimen/dp_120"
+        android:src="@drawable/ic_phone"
+        android:tint="@color/color_green_phone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+    <TextView
+        android:id="@+id/activity_answer_text_phone_answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_white"
+        android:text="@string/text_answer_vioce_call_accept"
+        android:layout_marginEnd="@dimen/dp_24"
+        android:layout_marginTop="@dimen/dp_12"
+        app:layout_constraintTop_toBottomOf="@id/activity_answer_consent_video_call"
+        app:layout_constraintEnd_toEndOf="@id/activity_answer_consent_video_call"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

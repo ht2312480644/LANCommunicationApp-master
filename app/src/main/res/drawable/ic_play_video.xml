@@ -1,0 +1,15 @@
+<!--Copyright (c) 2019 ASKEY Computer Corp. and/or its affiliates. All rights reserved.-->
+<!--Created by Oliver ou on 2019/10/30-->
+<!--Description: Voice or video communication function-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="@dimen/dp_80"
+    android:height="@dimen/dp_80"
+    android:viewportWidth="1025"
+    android:viewportHeight="1024">
+  <path
+      android:fillColor="#FF000000"
+      android:pathData="M512,42.67C254.73,42.67 42.67,254.74 42.67,512s212.07,469.33 469.33,469.33c257.26,0 469.33,-212.07 469.33,-469.33 0,-257.26 -212.07,-469.33 -469.33,-469.33M512,1024C228.69,1024 0,795.31 0,512 0,228.69 228.69,0 512,0c283.31,0 512,228.69 512,512 0,283.31 -228.69,512 -512,512"/>
+  <path
+      android:fillColor="#FF000000"
+      android:pathData="M631.88,496.1c10.62,7.95 10.62,23.85 0,31.8L405.24,678.93C394.62,686.88 384,681.58 384,668.33V355.67c0,-13.25 10.62,-18.55 21.24,-10.6l226.65,151.03z"/>
+</vector>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright (c) 2019 ASKEY Computer Corp. and/or its affiliates. All rights reserved.-->
+<!--Created by Jesse Liu on 2019/10/21-->
+<!--Description: PG1-Smart Team-CT PT-29 [MM] Viewing Pictures Coding-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical">
+    <View
+        android:id="@+id/custom_status_bar_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+        <TextView
+            android:id="@+id/clip_image_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/clip_image_edit"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/sp_20" />
+
+    </RelativeLayout>
+
+    <com.skysoft.smart.intranetchat.model.camera.widget.ClipViewLayout
+        android:id="@+id/clipViewLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:clipBorderWidth="@dimen/dp_2" />
+
+
+    <RelativeLayout
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_60"
+        android:background="#1C1C1C">
+
+        <TextView
+            android:id="@+id/clip_image_cancel"
+            android:layout_width="@dimen/dp_80"
+            android:layout_height="match_parent"
+            android:layout_alignTop="@+id/clip_image_determine"
+            android:layout_alignParentStart="true"
+            android:gravity="center_vertical|start"
+            android:paddingStart="@dimen/dp_40"
+            android:text="@string/clip_image_cancel"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/sp_18" />
+
+        <TextView
+            android:id="@+id/clip_image_determine"
+            android:layout_width="@dimen/dp_80"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical|end"
+            android:paddingStart="0dp"
+            android:paddingEnd="@dimen/dp_40"
+            android:text="@string/clip_image_determine"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/sp_18" />
+    </RelativeLayout>
+
+
+</LinearLayout>

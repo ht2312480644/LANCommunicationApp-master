@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright (c) 2019 ASKEY Computer Corp. and/or its affiliates. All rights reserved.-->
+<!--Created by Oliver ou on 2019/11/6-->
+<!--Description: Voice or video communication function-->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.videocall.VideoCallActivity">
+
+    <TextureView
+        android:id="@+id/activity_on_video_call_mine"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <TextureView
+        android:id="@+id/activity_on_video_call_other"
+        android:layout_width="@dimen/dp_104"
+        android:layout_height="@dimen/dp_160"
+        android:layout_alignParentEnd="true"/>
+
+
+
+    <ImageView
+        android:id="@+id/on_video_call_hung_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_phone_cancel"
+        android:layout_marginBottom="@dimen/dp_120"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true" />
+    <TextView
+        android:id="@+id/activity_video_call_text_hung_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_on_vioce_call_cancel"
+        android:textColor="@color/color_white"
+        android:layout_marginBottom="@dimen/dp_96"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true" />
+    <ImageView
+        android:id="@+id/activity_video_mute"
+        android:layout_width="@dimen/dp_40"
+        android:layout_height="@dimen/dp_40"
+        android:tint="@color/color_red"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="@dimen/dp_130"
+        android:layout_marginEnd="@dimen/dp_80"/>
+    <ImageView
+        android:id="@+id/activity_video_camera_change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tint="@color/color_red"
+        android:src="@drawable/ic_camera_switch_line"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/dp_130"
+        android:layout_marginStart="@dimen/dp_80"/>
+</RelativeLayout>

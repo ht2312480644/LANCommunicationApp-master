@@ -1,0 +1,39 @@
+<!--Copyright (c) 2019 ASKEY Computer Corp. and/or its affiliates. All rights reserved.-->
+<!--Created by Oliver ou on 2019/11/1-->
+<!--Description: Voice or video communication function-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="@dimen/dp_20"
+    android:height="@dimen/dp_20"
+    android:viewportWidth="1024"
+    android:viewportHeight="1024">
+  <path
+      android:fillColor="#FF000000"
+      android:pathData="M267.76,317.63l77.99,0 0,77.98 -77.99,0 0,-77.98Z"/>
+  <path
+      android:fillColor="#FF000000"
+      android:pathData="M404.25,317.63l77.99,0 0,77.98 -77.99,0 0,-77.98Z"/>
+  <path
+      android:fillColor="#FF000000"
+      android:pathData="M540.74,317.63l77.99,0 0,77.98 -77.99,0 0,-77.98Z"/>
+  <path
+      android:fillColor="#FF000000"
+      android:pathData="M677.23,317.63l77.99,0 0,77.98 -77.99,0 0,-77.98Z"/>
+  <path
+      android:fillColor="#FF000000"
+      android:pathData="M267.76,473.6l77.99,0 0,77.98 -77.99,0 0,-77.98Z"/>
+  <path
+      android:fillColor="#FF000000"
+      android:pathData="M404.25,473.6l77.99,0 0,77.98 -77.99,0 0,-77.98Z"/>
+  <path
+      android:fillColor="#FF000000"
+      android:pathData="M540.74,473.6l77.99,0 0,77.98 -77.99,0 0,-77.98Z"/>
+  <path
+      android:fillColor="#FF000000"
+      android:pathData="M677.23,473.6l77.99,0 0,77.98 -77.99,0 0,-77.98Z"/>
+  <path
+      android:fillColor="#FF000000"
+      android:pathData="M287.26,629.55l428.97,0 0,77.98 -428.97,0 0,-77.98Z"/>
+  <path
+      android:fillColor="#FF000000"
+      android:pathData="M511.49,65.28c-246.64,0 -447.29,200.64 -447.29,447.29s200.65,447.29 447.29,447.29c246.65,0 447.31,-200.64 447.31,-447.29S758.15,65.28 511.49,65.28zM511.49,943.23c-237.46,0 -430.66,-193.2 -430.66,-430.65 0,-237.46 193.2,-430.66 430.66,-430.66 237.47,0 430.67,193.2 430.67,430.66C942.16,750.04 748.97,943.23 511.49,943.23z"/>
+</vector>

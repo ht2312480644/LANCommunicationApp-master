@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/dp_20"
+        android:background="@drawable/weather_bg">
+        <TextView
+            android:id="@+id/weather_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/sp_25"
+            android:text="2019年10月10日  星期三" />
+        <TextView
+            android:id="@+id/weather_current_temp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sp_120"
+            android:textColor="#FFFFFF"
+            android:text="20℃"/>
+        <TextView
+            android:id="@+id/weather_city_temp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/sp_25"
+            android:text="成都  阴  15℃-22℃"
+            android:layout_marginBottom="@dimen/dp_20"/>
+        <TextView
+            android:id="@+id/weather_PM_index"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PM指数：30 "
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/sp_25"
+            android:layout_marginBottom="@dimen/dp_20"/>
+        <TextView
+            android:id="@+id/weather_air_quality"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="空气质量：优"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/sp_25" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:id="@+id/activity_weather_layout_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_20"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="未来天气情况"/>
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

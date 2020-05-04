@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">天软通</string>
+    <string name="process_name">:intranetchat</string>
+    <string name="quitApp_toast_text">再按一次退出程序</string>
+
+    <string name="rephotograph">重拍</string>
+    <string name="use_picture">使用</string>
+    <string name="text_cancel">取消</string>
+    <string name="text_open_lighting">打开</string>
+    <string name="text_close_lighting">关闭</string>
+    <string name="text_auto_lighting">自动</string>
+    <string name="clip_image_edit">编辑</string>
+    <string name="clip_image_cancel">取消</string>
+    <string name="clip_image_determine">确定</string>
+    <string name="chat_room_title_message">消息</string>
+    <string name="chat_room_word_limit">发送的文字不能超过30个</string>
+    <string name="hold_down_the_talk">按住 说话</string>
+    <string name="voice">语音</string>
+    <string name="image">图片</string>
+    <string name="video">视频</string>
+    <string name="file">文件</string>
+    <string name="text_start_vioce_invite">正在等待对方接受邀请</string>
+    <string name="text_answer_vioce_invite">邀请您进行语音通话..</string>
+    <string name="text_answer_video_invite">邀请您进行视频通话..</string>
+    <string name="text_answer_vioce_call_accept">接听</string>
+    <string name="text_on_vioce_call_cancel">挂断</string>
+    <string name="limit_name_length">用户名为2到12个字符</string>
+    <string name="limit_group_name_length">群名至少4个字符,最多20个字符</string>
+    <string name="MessageListAdapter_delete">删除</string>
+    <string name="user_state_online">空闲</string>
+    <string name="user_state_out_line">离线</string>
+    <string name="user_state_busy">忙碌</string>
+
+    <string name="call_refuse_answer">未接听</string>
+    <string name="call_time">通话时长</string>
+    <string name="call_out_time">对方未接听</string>
+    <string name="call_other">对方</string>
+    <string name="call_voice">语音通话</string>
+    <string name="call_video">视频通话</string>
+    <string name="call_in_call">通话中</string>
+    <string name="call_die">对方离线</string>
+    <string name="hour">时</string>
+    <string name="minute">分</string>
+    <string name="second">秒</string>
+    <string name="call_refuse_answer_mine">已取消</string>
+    <string name="call_refuse_launch_mine">已取消</string>
+    <string name="call_refuse_launch">对方已拒绝</string>
+
+    <string name="MessageFragment_mEstablishGroup">发起群聊</string>
+    <string name="tools_text_weather_text">天气</string>
+    <string name="tools_text_clock_text">闹钟</string>
+    <string name="tools_text_calendar_text">日历</string>
+    <string name="ToolsFragment_title_text">工具</string>
+    <string name="chat_room_establish_group__text">群成员</string>
+    <string name="back">返回</string>
+    <string name="file_size_0B">发送的文件不能是0B!</string>
+    <string name="file_size_too_big">发送的文件太大!</string>
+    <string name="file_not_found">发送的文件路径不存在!</string>
+    <string name="repeated_construction_group">群已经存在!</string>
+    <string name="build_group_number">群聊最少需要3人!</string>
+
+    <string name="ChatRoomActivity_inputVoiceTime_Toast">说话时间过短。</string>
+    <string name="ToolsFragment_linearMemo_Toast">需要授权读取日历权限。</string>
+
+    <string name="CalendarView_selectData_text">选中的日期:</string>
+    <string name="ChatRoomActivity_loadChatHistory_toast_text">没有更多的记录</string>
+    <string name="MyCameraManager_onPermissionDenied_toast_text">未授权相机权限</string>
+    <string name="MainActivity_BroadcastReceiver_flow_toast_text">正在使用流量登录程序</string>
+    <string name="MainActivity_BroadcastReceiver_wifi_toast_text">正在使用WIFI登录程序</string>
+    <string name="MainActivity_BroadcastReceiver_nonet_toast_text">没有网络</string>
+    <string name="Receiver_stop_toast_text">请重试，谢谢！</string>
+    <string name="IntranetChatApplication_onInCall_toast_text">对方正在通话中</string>
+    <string name="VideoCallActivity_checkPermissions_onPermissionGranted_toast_text">权限已授权,请重新发启对话。</string>
+    <string name="VideoCallActivity_checkPermissions_onPermissionDenied_toast_text">请授权相机权限和录音权限后再尝试发启对话。</string>
+    <string name="MyVideoManager_checkPermissions_onPermissionGranted_toast_text">已授权。</string>
+    <string name="MyVideoManager_checkPermissions_onPermissionDenied_toast_text">未授权。</string>
+    <string name="MyShowCaptureManager_checkPermissions_onPermissionDenied_toast_text">未授权。</string>
+    <string name="Toast_text_non_lan">请连接局域网！</string>
+    <string name="channel_name">values.strings.xml</string>
+    <string name="description">正在使用</string>
+
+    <string name="copy">复制</string>
+    <string name="transmit">转发</string>
+    <string name="delete">删除</string>
+    <string name="replay">回复</string>
+
+<!--    关闭转发-->
+    <string name="close_transmit">关闭</string>
+    <string name="transmit_to">发送给</string>
+    <string name="search">搜索</string>
+    <string name="no_more_result">没有更多搜索结果</string>
+</resources>

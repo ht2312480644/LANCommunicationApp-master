@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+* Copyright (c) 2019 ASKEY Computer Corp. and/or its affiliates. All rights reserved.
+* Created by Allen Luo on 2019/10/17
+* Description: [PT-40][Intranet Chat] [APP][UI] Home page ui
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <include
+            layout="@layout/layout_mine_info_show"/>
+    </LinearLayout>
+</LinearLayout>

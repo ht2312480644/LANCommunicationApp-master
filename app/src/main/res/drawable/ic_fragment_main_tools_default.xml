@@ -1,0 +1,17 @@
+<!--
+* Copyright (c) 2019 ASKEY Computer Corp. and/or its affiliates. All rights reserved.
+* Created by Allen Luo on 2019/10/17
+* Description: [PT-40][Intranet Chat] [APP][UI] Home page ui
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="@dimen/dp_200"
+    android:height="@dimen/dp_200"
+    android:viewportWidth="1024"
+    android:viewportHeight="1024">
+  <path
+      android:pathData="M192,64L128,64v896h768L896,64L192,64zM832,896L192,896L192,128h640v768z"
+      android:fillColor="#181818"/>
+  <path
+      android:pathData="M320,224h384v64H320zM320,416h64v64h-64zM480,416h64v64h-64zM640,416h64v64h-64zM320,576h64v64h-64zM480,576h64v64h-64zM640,576h64v64h-64zM320,736h64v64h-64zM480,736h64v64h-64zM640,736h64v64h-64z"
+      android:fillColor="#181818"/>
+</vector>

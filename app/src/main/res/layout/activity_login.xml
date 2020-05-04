@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+* Copyright (c) 2019 ASKEY Computer Corp. and/or its affiliates. All rights reserved.
+* Created by Allen Luo on 2019/10/15
+* Description: [PT-39][Intranet Chat] [APP][UI] Login UI
+-->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/activity_login_head"
+        android:layout_width="@dimen/dp_140"
+        android:layout_height="@dimen/dp_140"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/dp_156"
+        android:src="@drawable/default_head"/>
+
+    <EditText
+        android:id="@+id/activity_login_name"
+        android:layout_width="@dimen/dp_220"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/sp_24"
+        android:longClickable="false"
+        android:textColor="@color/color_black"
+        app:layout_constraintTop_toBottomOf="@+id/activity_login_head"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/dp_50"
+        android:singleLine="true"
+        android:ellipsize="middle"
+        android:textAlignment="center"
+        android:hint="请输入用户名"/>
+
+    <Button
+        android:id="@+id/activity_login_button"
+        android:layout_width="@dimen/dp_220"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button_selector"
+        app:layout_constraintTop_toBottomOf="@+id/activity_login_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="注册"
+        android:textSize="@dimen/sp_18"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

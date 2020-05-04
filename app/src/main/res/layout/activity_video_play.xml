@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright (c) 2019 ASKEY Computer Corp. and/or its affiliates. All rights reserved.-->
+<!--Created by Jesse Liu on 2019/11/8-->
+<!--Description: PG1-Smart Team-CT PT-72 [MM] Video Communication Coding-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_video_play_relative_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/color_black"
+    tools:context=".ui.activity.camera.ShowVideoActivity">
+    <View
+        android:id="@+id/custom_status_bar_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <VideoView
+        android:id="@+id/activity_video_play"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/activity_video_play_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_play_video"
+        android:layout_centerInParent="true"
+        android:tint="@color/color_white"
+        android:visibility="gone"/>
+
+</RelativeLayout>
